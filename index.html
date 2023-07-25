@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Figma Website</title>
+        <!-- CSS -->
+        <style>
+        .header h1{
+            margin-left: 40px;
+            margin-top:  50px;
+            font-family: Bahnschrift;
+            font-size: 40px;
+            color: #181456;
+        }
+        .header h2{
+            font-family: Bahnschrift;
+            margin-left: 40px;
+        }
+        .header p{
+            font-family: Bahnschrift;
+            margin-left: 40px;
+            margin-bottom: -9px;
+        }
+        .Bold{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Bold p{
+            margin-bottom: -9px;
+
+        }
+        .Bold_H2{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Bold_H2 p{
+            margin-bottom: -9px;
+
+        }
+        .H2-Book{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .H2-Book p{
+            margin-bottom: -9px;
+
+        }
+        .H3-Bold{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .H3-Bold p{
+            margin-bottom: -9px;
+
+        }
+        .H3-Book{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .H3-Book p{
+            margin-bottom: -9px;
+
+        }
+        .Body_Large{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Body_Large p{
+            margin-bottom: -9px;
+
+        }
+        .Regular{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Regular p{
+            margin-bottom: -9px;
+
+        }
+        .Semi{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Semi p{
+            margin-bottom: -9px;
+
+        }
+        .Small{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Small p{
+            margin-bottom: -9px;
+
+        }
+        .Light{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Light p{
+            margin-bottom: -9px;
+
+        }
+        
+        .Tiny_Regular{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Tiny_Regular p{
+            margin-bottom: -9px;
+
+        }
+        .Small_semi{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Small_semi p{
+            margin-bottom: -9px;
+
+        }
+        .col-225{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .col-225 p{
+            margin-bottom: -9px;
+
+        }
+        .col-240{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .col-240 p{
+            margin-bottom: -9px;
+
+        }
+        .Link{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Link p{
+            margin-bottom: -9px;
+
+        }
+        .Quote{
+            margin-top:  70px;
+            margin-left: 40px;
+            font-family: Bahnschrift;
+        }
+        .Quote p{
+            margin-bottom: -9px;
+
+        }
+        .parent{
+            display: flex;
+            /* flex-direction: column; */
+        }
+        /* Child-2*/
+        .Mobile h1{
+            margin-left: 200px;
+            margin-top:  50px;
+            font-family: Bahnschrift;
+            font-size: 40px;
+            color: #181456;
+        }
+        .Mobile > h2{
+            font-family: Bahnschrift;
+            margin-left: 200px;
+        }
+        .Mobile > p{
+            font-family: Bahnschrift;
+            margin-left: 200px;
+            margin-bottom: -9px;
+        }
+        .Book {
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .Book > p{
+            margin-bottom: -9px;
+        }
+        .Bold_2{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .Bold_2 p{
+            margin-bottom: -9px;
+        }
+        .col-329{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-329 p{
+            margin-bottom: -9px;
+        }
+        .col-334{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-334 p{
+            margin-bottom: -9px;
+        }
+        .col-348{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-348 p{
+            margin-bottom: -9px;
+        }
+        .col-353{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-353 p{
+            margin-bottom: -9px;
+        }
+        .col-374{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-374 p{
+            margin-bottom: -9px;
+        }
+        .col-379{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-379 p{
+            margin-bottom: -9px;
+        }
+        .col-400{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-400 p{
+            margin-bottom: -9px;
+        }
+        .col-405{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-405 p{
+            margin-bottom: -9px;
+        }
+        .col-410{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-410 p{
+            margin-bottom: -9px;
+        }
+        .col-415{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-415 p{
+            margin-bottom: -9px;
+        }
+        .col-420{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-420 p{
+            margin-bottom: -9px;
+        }
+        .col-425{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-425 p{
+            margin-bottom: -9px;
+        }
+        .col-430{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-430 p{
+            margin-bottom: -9px;
+        }
+        .col-435{
+            margin-top:  70px;
+            margin-left: 200px;
+            font-family: Bahnschrift;
+        }
+        .col-435 p{
+            margin-bottom: -9px;
+        }
+        /*Child-3*/
+        .Colors h1{
+            margin-top:  50px;
+            margin-left: 250px;
+            font-family: Bahnschrift;
+            font-size: 40px;
+            color: #181456;
+        }
+        .Colors p{
+            margin-top:  50px;
+            margin-left: 250px;
+            font-family: Bahnschrift;
+        }
+        .Colors h4 {
+            margin-top: 150px;
+            margin-left: 250px;
+            font-family: Bahnschrift;
+            margin-bottom: 3px;
+        }
+        .Colors span{
+            margin-left: 250px;
+            font-family: Bahnschrift;
+            padding-bottom: 10%;
+        }
+        
+        .col-545{
+            margin-left: 27px;
+            font-family: Bahnschrift;
+            padding-top: 18.5em;
+            
+        }
+        h4{
+            margin: 1.3em 0 0 0;
+        }
+        .child_3-wrapper {
+            display: flex;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-around;
+        }
+        .child_3-wrapper >div >p,h4,span{
+            font-weight: 100;
+        }
+        .col-561{
+            margin-left: 39px;
+            font-family: Bahnschrift;
+            padding-top: 18.5em;
+            
+        }
+        h4{
+            margin: 1.3em 0 0 0;
+        }
+        .col-576{
+            margin-left: 39px;
+            font-family: Bahnschrift;
+            padding-top: 18.5em;
+            
+        }
+        h4{
+            margin: 1.3em 0 0 0;
+        }
+        .col-582{
+            margin-left: 39px;
+            font-family: Bahnschrift;
+            padding-top: 18.5em;
+            
+        }
+        h4{
+            margin: 1.3em 0 0 0;
+        }
+        .col-588{
+            margin-left: 39px;
+            font-family: Bahnschrift;
+            padding-top: 18.5em;
+            
+        }
+        h4{
+            margin: 1.3em 0 0 0;
+        }
+        .col-594{
+            margin-left: 39px;
+            font-family: Bahnschrift;
+            padding-top: 18.5em;
+            
+        }
+        h4{
+            margin: 1.3em 0 0 0;
+        }
+        hr { 
+  /* display: block;
+  margin-top: 5.5em;
+  margin-bottom: 0.5em;
+  margin-left: 251px;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px; */
+  display: none;
+} 
+/* Golden*/
+.child_3_1-wrapper{
+    display: flex;
+    justify-content: start;
+    width: 85%;
+    border-top: 1px solid #39323294;
+    margin-left: 15.2em;
+    align-items: end;
+    margin-top: 9em;
+}
+.child_3_1-wrapper >div,h6{
+    font-weight: 100;
+}
+.Golden > h6{
+    font-size: 24px;
+    font-family: sans-serif;
+    /* margin: 0; */
+    margin-bottom: 37px;
+    margin-top: 13px;
+    
+}
+
+.Golden > div{
+    font-family: Bahnschrift;
+}
+.cont-1{
+    background-color:rgba(231,165,81,1) ;
+    width: 105px;
+    height: 100px;
+    border-radius: 5px;
+}
+.col-684 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont-2{
+background-color: rgba(231,165,81,0.80);
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.spc-top {
+ margin-top: 10px;
+}
+.col-702 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont-3{
+background-color: rgba(231,165,81,0.60 );
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.spc-top-1 {
+ margin-top: 10px;
+}
+.col-726 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont-4{
+background-color: rgb(243 189 120 / 60%);
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.spc-top-2 {
+ margin-top: 10px;
+}
+.col-734 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont-5{
+background-color: rgb(255 222 179 / 60%);
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.spc-top-3 {
+ margin-top: 10px;
+}
+.col-742 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont-7{
+background-color: rgb(255 245 232 / 60%);;
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.spc-top-4 {
+ margin-top: 10px;
+}
+.col-750 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont-6{
+background-color: #ffe2c02e;
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.spc-top-5 {
+ margin-top: 10px;
+}
+/* Dark*/
+.child_3_2-wrapper{
+    display: flex;
+    justify-content: start;
+    width: 85%;
+    border-top: 1px solid #39323294;
+    border-bottom: 1px dashed;
+    padding-bottom: 198px;
+    margin-left: 15.2em;
+    align-items: end;
+    margin-top: 9em;
+
+}
+.child_3_2-wrapper >div,h5{
+    font-weight: 100;
+}
+.Dark > h5{
+    font-size: 24px;
+    font-family: sans-serif;
+    /* margin: 0; */
+    margin-bottom: 37px;
+    margin-top: 13px;
+    
+}
+
+.Dark > div{
+    font-family: Bahnschrift;
+}
+.cont_1{
+    background-color:rgba(5,6,8,1) ;
+    width: 105px;
+    height: 100px;
+    border-radius: 5px;
+}
+.col-943 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont_2{
+background-color: rgba(5,6,8,0.80);
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.space_top {
+ margin-top: 10px;
+}
+.col-951 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont_3{
+background-color: rgba(5,6,8,0.60 );
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.space_top-1 {
+ margin-top: 10px;
+}
+.col-959 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont_4{
+background-color: rgb(5,6,8,0.40);
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.space_top-2 {
+ margin-top: 10px;
+}
+.col-967 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont_5{
+background-color: rgb(5,6,8,0.20);
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.space_top-3 {
+ margin-top: 10px;
+}
+.col-975 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont_7{
+background-color: rgb(5,6,8,0.10);;
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.space_top-4 {
+ margin-top: 10px;
+}
+.col-983 > div{
+    font-family: Bahnschrift;
+    margin-left: 53px;
+}
+.cont_6{
+background-color: rgb(5, 6, 8,0.05);
+width: 105px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 38px;
+}
+.space_top-5 {
+ margin-top: 10px;
+}
+.checkbox >h6{
+    font-size: 54px;
+    font-weight: bold;
+padding-left: 232px;
+    font-family: Bahnschrift;
+    color: #181456;
+    margin-bottom: 61px;
+}
+.child_3_3-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+input.largercheckbox{
+    
+    
+    width: 31px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+}
+.checkbox >div{
+    margin-left: 235px;
+    border-color: #383298;
+}
+.checkbox-wrapper{
+    border: 1px dashed;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 1em ;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+.checkbox-wrapper-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px;
+}
+.checkbox-wrapper-row >label{
+    padding: 1px;
+    font-size: 31px;
+    padding-left: 20px;
+    font-family: Bahnschrift;
+}
+/* radio check box */
+.radio >h6{
+    font-size: 54px;
+    font-weight: bold;
+padding-left: 232px;
+    font-family: Bahnschrift;
+    color: #181456;
+    margin-bottom: 61px;
+}
+.child_3_4-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+input.largerradiobox{
+    
+    
+    width: 31px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+}
+.radio >div{
+    margin-left: 235px;
+    border-color: #383298;
+}
+.radio-wrapper{
+    border: 1px dashed;
+    width: 61%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 1em ;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+.radio-wrapper-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px;
+}
+.radio-wrapper-row >label{
+    padding: 1px;
+    font-size: 31px;
+    padding-left: 20px;
+    font-family: Bahnschrift;
+}
+hr{
+    width: 100%;
+    border-top: 1px dashed;
+}
+.border{
+    width: 100%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 18em;
+    margin-left: 39px;
+}
+
+
+    </style>
+    </head>
+    <body>
+        <div class="parent" >
+            <div class="child_1">
+                <div class="header">
+                    <h1>Web</h1>
+                    <h2>H1/Book</h2>
+                    <p>plus Jakarta Sans Light</p>
+                    <p>40px / 48px</p>
+                </div>
+                <div class="Bold">
+                    <h2>H1/Bold</h2>
+                    <p>plus Jakarta Sans Bold</p>
+                    <p>32px / 40px</p>
+                </div>
+                <div class="Bold_H2">
+                    <h2>H2/Bold</h2>
+                    <p>plus Jakarta Sans Bold</p>
+                    <p>32px / 40px</p>
+                </div>
+                <div class="H2-Book">
+                    <h2>H2/Book</h2>
+                    <p>plus Jakarta Sans Light</p>
+                    <p>32px / 40px</p>
+                </div>
+                <div class="H3-Bold">
+                    <h2>H3/Bold</h2>
+                    <p>plus Jakarta Sans Bold</p>
+                    <p>24px / 32px</p>
+                </div>
+                <div class="H3-Book">
+                    <h2>H2/Book</h2>
+                    <p>plus Jakarta Sans Light</p>
+                    <p>24px / 32px</p>
+                </div>
+                <div class="Body_Large">
+                    <h2>Body-Large/Light</h2>
+                    <p>plus Jakarta Sans Light</p>
+                    <p>14px / 22px</p>
+                </div>
+                <div class="Regular">
+                    <h2>Body-Large/Regular</h2>
+                    <p>plus Jakarta Sans Regular</p>
+                    <p>14px / 22px</p>
+                </div>
+                <div class="Semi">
+                    <h2>Body-Large/Semi</h2>
+                    <p>plus Jakarta Sans SemiBold</p>
+                    <p>14px / 22px</p>
+                </div>
+                <div class="Small">
+                    <h2>Body-Small/Light</h2>
+                    <p>plus Jakarta Sans Light</p>
+                    <p>12px / 20px</p>
+                </div>
+                <div class="Regular">
+                    <h2>Body-Small/Regular</h2>
+                    <p>plus Jakarta Sans Regular</p>
+                    <p>12px / 20px</p>
+                </div>
+                <div class="col-225">
+                    <h2>Body-Small/Semi</h2>
+                    <p>plus Jakarta Sans SemiBold</p>
+                    <p>12px / 20px</p>
+                </div>
+                <div class="Light">
+                    <h2>Body-Tiny/Light</h2>
+                    <p>plus Jakarta Sans Light</p>
+                    <p>10px / 16px</p>
+                </div>
+                <div class="Tiny_Regular">
+                    <h2>Body-Tiny/Regular</h2>
+                    <p>plus Jakarta Sans Regular</p>
+                    <p>10px / 16px</p>
+                </div>
+                <div class="col-240">
+                    <h2>Body-Tiny/Semi</h2>
+                    <p>plus Jakarta Sans SemiBold</p>
+                    <p>10px / 16px</p>
+                </div>
+                <div class="Link">
+                    <h2>Body-Q-L/Link</h2>
+                    <p>plus Jakarta Sans Light</p>
+                    <p>12px / 20px</p>
+                </div>
+                <div class="Quote">
+                    <h2>Body-Q-L/Quote</h2>
+                    <p>plus Jakarta Sans Light Italic</p>
+                    <p>12px / 20px</p>
+                </div>
+            </div>
+            <div class="child_2">
+                <div>
+                    <div class="Mobile">
+                        <h1>Mobile</h1>
+                        <h2>H1/Bold</h2>
+                        <p>plus Jakarta Sans Bold</p>
+                        <p>32px / 40px</p>
+                    </div>
+                    <div class="Book">
+                        <h2>H1/Book</h2>
+                        <p>plus Jakarta Sans Light</p>
+                        <p>32px / 40px</p>
+                    </div>
+                    <div class="Bold_2">
+                        <h2>H2/Bold</h2>
+                        <p>plus Jakarta Sans Bold</p>
+                        <p>32px / 40px</p>
+                    </div>
+                    <div class="col-329">
+                        <h2>H2/Book</h2>
+                        <p>plus Jakarta Sans Light</p>
+                        <p>32px / 40px</p>
+                    </div>
+                    <div class="col-334">
+                        <h2>H3/Bold</h2>
+                        <p>plus Jakarta Sans Bold</p>
+                        <p>24px / 32px</p>
+                    </div>
+                    <div class="col-348">
+                        <h2>H2/Book</h2>
+                        <p>plus Jakarta Sans Light</p>
+                        <p>24px / 32px</p>
+                    </div>
+                    <div class="col-353">
+                        <h2>Body-Large/Light</h2>
+                        <p>plus Jakarta Sans Light</p>
+                        <p>14px / 22px</p>
+                    </div>
+                    <div class="col-374">
+                        <h2>Body-Large/Regular</h2>
+                        <p>plus Jakarta Sans Regular</p>
+                        <p>14px / 22px</p>
+                    </div>
+                    <div class="col-379">
+                        <h2>Body-Large/Semi</h2>
+                        <p>plus Jakarta Sans SemiBold</p>
+                        <p>14px / 22px</p>
+                    </div>
+                    <div class="col-400">
+                        <h2>Body-Small/Light</h2>
+                        <p>plus Jakarta Sans Light</p>
+                        <p>12px / 20px</p>
+                    </div>
+                    <div class="col-405">
+                        <h2>Body-Small/Regular</h2>
+                        <p>plus Jakarta Sans Regular</p>
+                        <p>12px / 20px</p>
+                    </div>
+                    <div class="col-410">
+                        <h2>Body-Small/Semi</h2>
+                        <p>plus Jakarta Sans SemiBold</p>
+                        <p>12px / 20px</p>
+                    </div>
+                    <div class="col-415">
+                        <h2>Body-Tiny/Light</h2>
+                        <p>plus Jakarta Sans Light</p>
+                        <p>10px / 16px</p>
+                    </div>
+                    <div class="col-420">
+                        <h2>Body-Tiny/Regular</h2>
+                        <p>plus Jakarta Sans Regular</p>
+                        <p>10px / 16px</p>
+                    </div>
+                    <div class="col-425">
+                        <h2>Body-Tiny/Semi</h2>
+                        <p>plus Jakarta Sans SemiBold</p>
+                        <p>10px / 16px</p>
+                    </div>
+                    <div class="col-430">
+                        <h2>Body-Q-L/Link</h2>
+                        <p>plus Jakarta Sans Light</p>
+                        <p>12px / 20px</p>
+                    </div>
+                    <div class="col-435">
+                        <h2>Body-Q-L/Quote</h2>
+                        <p>plus Jakarta Sans Light Italic</p>
+                        <p>12px / 20px</p>
+                    </div>
+                </div>
+            </div>
+            <div class="child_3">
+                <!-- child content here -->
+                <div class="child_3-wrapper">  <!---White parent-->
+                <div class="Colors">
+                    <h1>Colors</h1>
+                    <p>White</p>
+                    <h4>100</h4>
+                        <span>rgba(255,255,255,1)</span></br>
+                        <span>hsla(0,0,100,1)</span></br>
+                        <span>#FFFFFF</span>
+                </div>
+                 <div class="col-545">
+                    <h4>80</h4>
+                    <span>rgba(255,255,255,0.80)</span></br>
+                    <span>hsla(0,0,100,0.80)</span></br>
+                    <span>#FFFFFF</span>
+                </div>  
+                <div class="col-561">
+                    <h4>60</h4>
+                        <span>rgba(255,255,255,0.60)</span></br>
+                        <span>hsla(0,0,100,0.60)</span></br>
+                        <span>#FFFFFF</span>
+                </div>
+                <div class="col-576">
+                    <h4>40</h4>
+                        <span>rgba(255,255,255,0.40)</span></br>
+                        <span>hsla(0,0,100,0.40)</span></br>
+                        <span>#FFFFFF</span>
+                </div>
+                <div class="col-582">
+                    <h4>20</h4>
+                        <span>rgba(255,255,255,0.20)</span></br>
+                        <span>hsla(0,0,100,0.20)</span></br>
+                        <span>#FFFFFF</span>
+                </div>
+                <div class="col-588">
+                    <h4>10</h4>
+                        <span>rgba(255,255,255,0.10)</span></br>
+                        <span>hsla(0,0,100,0.10)</span></br>
+                        <span>#FFFFFF</span>
+                </div>
+                <div class="col-594">
+                    <h4>5</h4>
+                        <span>rgba(255,255,255,0.5)</span></br>
+                        <span>hsla(0,0,100,0.5)</span></br>
+                        <span>#FFFFFF</span>
+                </div>
+                </div>
+                <hr>
+                <div class="child_3_1-wrapper">
+                       <!--Golden parent-->
+                       <!-- TITLE ROW -->
+                       <!--  -->
+                    <div class="Golden">
+                        <h6>Golden</h6>
+                        <div class="cont-1"></div>    
+                        <div class="spc-top">100</div>
+                            <div>rgba(231,165,81,1)</div>
+                            <div>hsla(34,76,61,1)</div>
+                            <div>#E7A551</div>
+                    </div>
+                    <div class="col-684">
+                        <div class="cont-2"></div>    
+                        <div class="spc-top">80</div>
+                            <div>rgba(231,165,81,0.80)</div>
+                            <div>hsla(34,76,61,0.80)</div>
+                            <div>#E7A551</div>
+                           
+                    </div>
+                    <div class="col-702">
+                        <div class="cont-3"></div>    
+                        <div class="spc-top-1">60</div>
+                            <div>rgba(231,165,81,0.60)</div>
+                            <div>hsla(34,76,61,0.60)</div>
+                            <div>#E7A551</div>
+                           
+                    </div>
+                    <div class="col-726">
+                        <div class="cont-4"></div>    
+                        <div class="spc-top-2">40</div>
+                            <div>rgba(231,165,81,0.40)</div>
+                            <div>hsla(34,76,61,0.40)</div>
+                            <div>#E7A551</div>
+                           
+                    </div>
+                    <div class="col-734">
+                        <div class="cont-5"></div>    
+                        <div class="spc-top-3">20</div>
+                            <div>rgba(231,165,81,0.20)</div>
+                            <div>hsla(34,76,61,0.20)</div>
+                            <div>#E7A551</div>
+                           
+                    </div>
+                    <div class="col-742">
+                        <div class="cont-6"></div>    
+                        <div class="spc-top-4">10</div>
+                            <div>rgba(231,165,81,0.10)</div>
+                            <div>hsla(34,76,61,0.10)</div>
+                            <div>#E7A551</div>
+                           
+                    </div>
+                    <div class="col-750">
+                        <div class="cont-7"></div>    
+                        <div class="spc-top-5">5</div>
+                            <div>rgba(231,165,81,0.05)</div>
+                            <div>hsla(34,76,61,0.05)</div>
+                            <div>#E7A551</div>
+                           
+                    </div>
+                        
+                     
+                            
+                </div>
+                <div class="child_3_2-wrapper">
+                    <!--Golden parent-->
+                    <!-- TITLE ROW -->
+                    <!--  -->
+                 <div class="Dark">
+                     <h5>Dark</h5>
+                     <div class="cont_1"></div>    
+                     <div class="space_top">100</div>
+                         <div>rgba(5, 6, 8,1)</div>
+                         <div>hsla(220,23,3,1)</div>
+                         <div>#050608</div>
+                 </div>
+                 <div class="col-943">
+                     <div class="cont_2"></div>    
+                     <div class="space_top">80</div>
+                         <div>rgba(5, 6, 8,0.80)</div>
+                         <div>hsla(220,23,3,0.80)</div>
+                         <div>#E7A551</div>
+                        
+                 </div>
+                 <div class="col-951">
+                     <div class="cont_3"></div>    
+                     <div class="space_top-1">60</div>
+                         <div>rgba(5, 6, 8,0.60)</div>
+                         <div>hsla(220,23,3,0.60)</div>
+                         <div>#050608</div>
+                        
+                 </div>
+                 <div class="col-959">
+                     <div class="cont_4"></div>    
+                     <div class="space_top-2">40</div>
+                         <div>rgba(5, 6, 8,0.40)</div>
+                         <div>hsla(220,23,3,0.40)</div>
+                         <div>#050608</div>
+                        
+                 </div>
+                 <div class="col-967">
+                     <div class="cont_5"></div>    
+                     <div class="space_top-3">20</div>
+                         <div>rgba(5, 6, 8,0.20)</div>
+                         <div>hsla(220,23,3,0.20)</div>
+                         <div>#050608</div>
+                        
+                 </div>
+                 <div class="col-975">
+                     <div class="cont_6"></div>    
+                     <div class="space_top-4">10</div>
+                         <div>rgba(5, 6, 8,0.10)</div>
+                         <div>hsla(220,23,3,0.10)</div>
+                         <div>#050608</div>
+                        
+                 </div>
+                 <div class="col-983">
+                     <div class="cont_7"></div>    
+                     <div class="space_top-5">5</div>
+                         <div>rgba(5, 6, 8,0.05)</div>
+                         <div>hsla(220,23,3,0.05)</div>
+                         <div>#050608</div>
+                        
+                 </div>   
+             </div>
+             <div class="child_3_3-wrapper">
+             <div class="checkbox">
+                <h6>CheckBox</h6>
+                <div class="checkbox-wrapper">
+                    <div class="checkbox-wrapper-row">
+                <input  type="checkbox"  class="largercheckbox" id="rememberme" name="rememberme">
+                <label for="rememberme "> Remember me</label></div>
+                <div class="checkbox-wrapper-row">
+                    <input  type="checkbox"  class="largercheckbox" id="rememberme-1" name="rememberme-1">
+                    <label for="rememberme-1 "> Remember me</label></div>
+                </div>
+            </div>
+            <div class="child_3_4-wrapper">
+            <div class="radio">
+                <h6>Radio</h6>
+                <div class="radio-wrapper">
+                    <div class="radio-wrapper-row">
+                <input  type="radio"  class="largerradiobox" id="option" name="rememberme">
+                <label for="option "> Option A</label></div>
+                <div class="radio-wrapper-row">
+                    <input  type="radio"  class="largerradiobox" id="option-1" name="rememberme">
+                    <label for="option-1"> option B</label></div>
+                    </div>
+             </div>
+            </div>
+               
+                <!-- <div class="wrapper"> -->
+                  
+                <!-- </div> -->
+               
+            </div>
+        
+            
+        </div>
+    </div>
+    <div class="border"></div>
+            <!-- <hr> -->
+    </body>
+</html>
